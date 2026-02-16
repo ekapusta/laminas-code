@@ -9,7 +9,7 @@
     "homepage": "https://laminas.dev",
     "license": "BSD-3-Clause",
     "require": {
-        "php": ">=7.4, ^8.0"
+        "php": ">=7.4 || ^8.0"
     },
     "replace": {
       "laminas/laminas-code": "^4.7.1"
