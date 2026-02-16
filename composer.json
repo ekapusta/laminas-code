@@ -1,5 +1,5 @@
 {
-    "name": "laminas/laminas-code",
+    "name": "ekapusta/laminas-code",
     "description": "Extensions to the PHP Reflection API, static code scanning, and code generation",
     "keywords": [
         "laminas",
@@ -9,7 +9,10 @@
     "homepage": "https://laminas.dev",
     "license": "BSD-3-Clause",
     "require": {
-        "php": ">=7.4, <8.2"
+        "php": ">=7.4, ^8.0"
+    },
+    "replace": {
+      "laminas/laminas-code": "^4.7.1"
     },
     "require-dev": {
         "ext-phar": "*",
